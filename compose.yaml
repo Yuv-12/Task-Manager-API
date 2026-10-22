@@ -1,0 +1,7 @@
+
+services:
+  api:
+    image: yuv1209/task-manager-api:latest
+    ports:
+      - "8000:8000"
+    container_name: task-manager
